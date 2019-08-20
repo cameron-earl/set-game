@@ -1,0 +1,40 @@
+.Shape {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.Shape > div {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.Shape > div > svg {
+  width: 33%;
+}
+
+.setline {
+  stroke-width: 4;
+  stroke-linejoin: round;
+}
+
+.green,
+.green.hatched {
+  stroke: green;
+}
+
+.red,
+.red.hatched {
+  stroke: red;
+}
+
+.purple,
+.purple.hatched {
+  stroke: purple;
+}
