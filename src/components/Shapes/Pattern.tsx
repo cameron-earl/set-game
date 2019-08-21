@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Color } from '../../helpers/shapes';
+import { Color } from '../../helpers/models';
 import styles from './Shape.module.css';
 
 export type PatternProps = {

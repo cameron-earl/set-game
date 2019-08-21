@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { CardInfo } from '../../helpers/shapes';
+import { CardInfo } from '../../helpers/models';
 import Shape from '../Shapes/Shape';
 import styles from './Card.module.css';
 

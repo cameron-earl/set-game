@@ -1,5 +1,5 @@
 import { shuffleArr } from './helpers';
-import { CardInfo, Color, Fill, Shapes } from './shapes';
+import { CardInfo, Color, Fill, Shapes } from './models';
 
 const buildCard = (c: number, f: number, s: number, n: number): CardInfo => ({
   color: Object.keys(Color)[c % 3] as Color,

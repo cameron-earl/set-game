@@ -16,11 +16,20 @@ export enum Shapes {
   squiggle,
 }
 
+export enum Attribute {
+  color = 'color',
+  fill = 'fill',
+  shape = 'shape',
+  count = 'count',
+}
+
 export type CardInfo = {
-  color: Color;
-  fill: Fill;
-  shape: Shapes;
-  count: 1 | 2 | 3;
+  [Attribute.color]: Color;
+  [Attribute.fill]: Fill;
+  [Attribute.shape]: Shapes;
+  [Attribute.count]: 1 | 2 | 3;
 };
 
 export type CardInfoSet = [CardInfo, CardInfo, CardInfo];
+
+export type CardIndexSet = [number, number, number];

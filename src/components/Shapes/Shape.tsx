@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { CardInfo, Fill, Shapes } from '../../helpers/shapes';
+import { CardInfo, Fill, Shapes } from '../../helpers/models';
 import Pattern from './Pattern';
 import styles from './Shape.module.css';
 
